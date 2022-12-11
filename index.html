@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>2D Web Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./res/Run/Run (1).png" type="image/png">
+</head>
+
+<body class="body" onkeyup="k(event);">
+
+    <div class="b" id="b">
+        <p class="score" id="score">0</p>
+        <img id="i" class="i" src="./res/Run/Run (1).png">
+       <!-- <img class="flame" src="./res/flame.gif"> -->
+    </div>
+
+    <div class="end" id="end">
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div id="eScore">0</div>
+        <button id="btn" class="btn" onclick="re();">Try Again?</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
